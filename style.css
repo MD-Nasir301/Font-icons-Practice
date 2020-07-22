@@ -1,3 +1,6 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Great+Vibes&family=Indie+Flower&family=Lexend+Zetta&family=Raleway:wght@400;600&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500&family=Teko:wght@300;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +13,13 @@
     clear: both;
 }
 
-.topic {
-    font-size: 30px;
+.topic h1{
+    font-size: 50px;
     color: white;
     background: #2196F3;
     text-align: center;
     margin-bottom: 50px;
+    padding: 2px 0; 
 }
 .title {
     font-size: 20px;
@@ -27,6 +31,140 @@
     padding: 5px 0;
 }
 
+
+/* Local font */
+@font-face {
+    font-family: 'orange juice';
+    src: url('font/local-font/orang ejuice.woff')
+    format('woff2'),
+        url('font/local-font/orangejuice.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angeline Vintage';
+    src: url('font/local-font/AngelineVintage.woff2') format('woff2'),
+    url('font/local-font/AngelineVintage.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pillar Yellow Outline';
+    src: url('font/local-font/PillarYellowOutline.woff2') format('woff2'),
+        url('font/local-font/PillarYellowOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daylighted Demo';
+    src: url('font/local-font/DaylightedDemoRegular.woff2') format('woff2'),
+        url('font/local-font/DaylightedDemoRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pillar Yellow';
+    src: url('font/local-ofnt/PillarYellowRegular.woff2') format('woff2'),
+        url('font/local-font/PillarYellowRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deep Session Demo Outline';
+    src: url('font/local-font/DeepSessionDemoOutline.woff2') format('woff2'),
+        url('font/local-font/DeepSessionDemoOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deep Session Demo';
+    src: url('font/local-font/DeepSessionDemoRegular.woff2') format('woff2'),
+        url('font/local-font/DeepSessionDemoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.fs-50 {
+    font-size: 50px;
+}
+.ff-name {
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+}
+.one {
+    font-family: 'orange juice';
+    color: green;
+}
+.two {
+    font-family: 'Angeline Vintage';
+}
+.three {
+    font-family: 'Daylighted Demo';
+}
+.four {
+    font-family: 'Pillar Yellow';
+    color: red;
+}
+.five {
+    font-family: 'Pillar Yellow Outline';
+}
+.six {
+    font-family: 'Deep Session Demo';
+}
+.seven {
+    font-family: 'Deep Session Demo Outline';
+    color: blue;
+}
+
+/* Google fonts */
+/* font-family: 'Teko', sans-serif; */
+.g-one {
+    font-family: 'Bebas Neue', cursive;
+    color: green;
+}
+.g-two {
+    font-family: 'Bitter', serif;
+}
+.g-three {
+    font-family: 'Great Vibes', cursive;
+}
+.g-four {
+    font-family: 'Indie Flower', cursive;
+    color: red;
+}
+.g-five {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+.g-six {
+    font-family: 'Raleway', sans-serif;
+}
+.g-seven {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* font-awesome */
 .font-awesome {
     font-size: 30px;
@@ -35,10 +173,16 @@
 .font-awesome i {
     margin-right: 20px;
 }
+.font-awesome i:hover {
+    color: red;
+}
 
 /* flaticons */
 .flat-icons i:before {
     font-size: 50px;
+}
+.flat-icons i:hover::before {
+    color: red;
 }
 
 /* material icons */
@@ -46,3 +190,30 @@
     font-size: 50px;
     font-style: normal;
 }
+<<<<<<< HEAD
+=======
+.material-icons i:hover {
+    color: red;
+}
+
+
+/* bootstrap icons */
+.bootstrap-icon-svg svg {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.bootstrap-icon-svg svg:hover {
+    color: red;
+}
+
+
+/* CoreUI Icons */
+.coreui-cons i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.coreui-cons i:hover {  
+    color: red;
+}
+>>>>>>> master
