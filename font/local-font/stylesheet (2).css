@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Pillar Yellow Outline';
+    src: url('PillarYellowOutline.woff2') format('woff2'),
+        url('PillarYellowOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daylighted Demo';
+    src: url('DaylightedDemoRegular.woff2') format('woff2'),
+        url('DaylightedDemoRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pillar Yellow';
+    src: url('PillarYellowRegular.woff2') format('woff2'),
+        url('PillarYellowRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deep Session Demo Outline';
+    src: url('DeepSessionDemoOutline.woff2') format('woff2'),
+        url('DeepSessionDemoOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deep Session Demo';
+    src: url('DeepSessionDemoRegular.woff2') format('woff2'),
+        url('DeepSessionDemoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
