@@ -248,12 +248,6 @@
 
 
 
-
-
-
-
-
-
 /* font-awesome */
 .font-awesome {
     font-size: 30px;
@@ -279,8 +273,7 @@
     font-size: 50px;
     font-style: normal;
 }
-<<<<<<< HEAD
-=======
+
 .material-icons i:hover {
     color: red;
 }
@@ -309,8 +302,5 @@
 .coreui-cons i:hover {  
     color: red;
 }
-<<<<<<< HEAD
->>>>>>> master
-=======
 
->>>>>>> master
+
